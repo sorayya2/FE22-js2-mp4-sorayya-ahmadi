@@ -1,0 +1,67 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: Gotham Rounded, sans-serif;
+  font-weight: normal;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #810383,#7b4b8776);
+  
+}
+
+.src{
+  width: 22rem;
+  background-color: whitesmoke;
+  font-size: 4rem;
+  text-align: end;
+  padding: 0px;
+  overflow: hidden;
+}
+.buttons{
+
+  width: 22rem;
+  display: felx;
+  flex-wrap: wrap;
+}
+
+button{
+  background-color: rgb(181, 57, 238);
+  border: none;
+  color: black;
+  font-size: 3rem;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 20px;
+  margin: 2px;
+}
+
+button:hover{
+  background-color: rgb(170, 9, 138);
+}
+
+button:active{
+  background-color: rgb(71, 11, 129);
+}
+.equals{
+  background-color: rgb(167, 128, 194);
+}
+
+.equals:hover{
+  background-color: rgb(80, 17, 124);
+}
+
+.clear{
+  background-color: rgb(135, 71, 147);
+  width: 16rem;
+  font-size: 2.5rem;
+}
+
+.clear:hover{
+  background-color: rgb(243, 146, 209);
+}
+
+
